@@ -38,6 +38,8 @@ public class BaseTest {
 		if(browserName.contains("chrome"))
 		{  	
 			ChromeOptions options = new ChromeOptions();
+			
+			
 			if(browserName.contains("headless"))
 			{
 				options.addArguments("headless");
