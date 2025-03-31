@@ -43,16 +43,6 @@ public class OrderPage extends BaseClass{
 		}
 		return false;
 	}
-	public void hellio()
-	{	
-		System.out.println("bye");
-	}
-	
-	public void bye()
-	{	
-		System.out.println("bye");
-	}
-	
 	
 
 }
