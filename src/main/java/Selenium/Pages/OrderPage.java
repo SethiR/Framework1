@@ -45,9 +45,13 @@ public class OrderPage extends BaseClass{
 	}
 	public void hellio()
 	{	
-		System.out.println("helo");
+		System.out.println("bye");
 	}
 	
+	public void bye()
+	{	
+		System.out.println("bye");
+	}
 	
 	
 
