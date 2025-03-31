@@ -20,7 +20,7 @@ public class ErrorValidationTest extends BaseTest {
 	WebDriver driver;
 	
 	
-	@Test(dataProvider="getData", groups= {"Smoke"},retryAnalyzer= Retry.class)
+	@Test(dataProvider="getData", groups= {"Smoke"})//,retryAnalyzer= Retry.class)
 	public void validateSignout(HashMap<String, String> input) throws IOException, InterruptedException 
 	{
 	
