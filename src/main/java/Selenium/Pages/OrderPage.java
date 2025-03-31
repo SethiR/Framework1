@@ -43,25 +43,12 @@ public class OrderPage extends BaseClass{
 		}
 		return false;
 	}
+	public void hellio()
+	{	
+		System.out.println("helo");
+	}
 	
 	
-//	public boolean verifyOrderHistory(String[] itemNeeded) throws InterruptedException
-//	{	
-//		for(int i=0;i<itemNeeded.length;i++)
-//		{
-//			for(int j=0;j<orderNames.size();j++)
-//			{
-//				String name = orderNames.get(j).getText();
-//				System.out.println(name);
-//				if(name.equalsIgnoreCase(itemNeeded[i]))
-//				{
-//					return true;
-//				}
-//			}
-//		}
-//		return false;
-//	}
-
 	
 
 }
